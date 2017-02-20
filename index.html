@@ -11,6 +11,23 @@
 div, p, a, li, td {
 	-webkit-text-size-adjust:none;
 }
+.triangle {
+  height: 20px;
+  display: block;
+  height: 0;
+  position: absolute;
+  top: -40px;
+  left:0;
+  right: 0;
+  padding-bottom: 20px;
+  border-left: 300px solid transparent;
+  border-right: 300px solid transparent;
+  border-bottom: 20px solid #fff;
+
+}
+* {
+
+}
 .ReadMsgBody {
 	width: 100%;
 	background-color: #e6e6e6;
@@ -238,7 +255,7 @@ table td[class=blockheight]{
                   <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" style="border-bottom:1px solid #48453c; border-top:1px solid #48453c;">
                     <tr>
                       <td mc:edit="text01" height="49" align="center" valign="middle" width="33%" style=" border-right:1px solid #48453c;">
-                      <a href="#" style="font:700 14px 'Roboto', Helvetica, Arial, sans-serif; color:#ffffff; text-decoration:none;">Заказать</a></td>
+                      <a href="#" style="font:700 14px 'Roboto', Helvetica, Arial, sans-serif; color:#ffffff; text-decoration:none;">Преимущества</a></td>
                       <td mc:edit="text02" height="49" align="center" valign="middle" width="33%" style=" border-right:1px solid #48453c;"><a href="#" style="font:700 14px 'Roboto', Helvetica, Arial, sans-serif; color:#ffffff; text-decoration:none;">Цена</a></td>
                       <td mc:edit="text03" height="49" align="center" valign="middle" width="33%"><a href="#" style="font:700 14px 'Roboto', Helvetica, Arial, sans-serif; color:#ffffff; text-decoration:none;">Контакты</a></td>
                     </tr>
@@ -250,7 +267,7 @@ table td[class=blockheight]{
           <td class="backgroundimg" valign="middle"><table width="100%" align="center" border="0" cellspacing="0" cellpadding="0">
                <tr><td height="96">&nbsp;</td></tr>
               <tr>
-                <td mc:edit="text04" class="maintitle" align="center" style="font:100 69px 'Roboto', sans-serif, Arial, Helvetica; color:#e4da36;"><b>Лучший подарок для мужика
+                <td mc:edit="text04" class="maintitle" align="center" style="font:100 69px 'Roboto', sans-serif, Arial, Helvetica; color:#f8ef22;"><b>Лучший подарок для мужика
 </td>
               </tr>
               <tr>
@@ -276,7 +293,7 @@ table td[class=blockheight]{
 </table>
 <table width="219" border="0" cellspacing="0" cellpadding="0" align="left" class="blockcenterd">
   <tr>
-    <td mc:edit="text06" width="219" height="65" bgcolor="#e4da36" align="center" valign="middle" style="background:#e4da36; font:700 18px 'Roboto', Helvetica, Arial, sans-serif;"><a href="#" style="text-decoration: none; color:#ffffff; padding: 15px 0; text-transform: uppercase;">Заказать</a></td>
+    <td mc:edit="text06" width="219" height="65" bgcolor="#e4da36" align="center" valign="middle" style="background:#f8ef22; font:700 18px 'Roboto', Helvetica, Arial, sans-serif;"><a href="#" style="text-decoration: none; color:#000000; padding: 15px 0; text-transform: uppercase;">Купить</a></td>
   </tr>
   <tr>
     <td height="13">&nbsp;</td>
@@ -301,34 +318,264 @@ table td[class=blockheight]{
       </table></td>
   </tr>
 </table>
+<!-- block 1 -->
 <table mc:repeatable="Block01" width="100%" border="0" cellspacing="0" cellpadding="0" align="center" class="full">
   <tr>
     <td><table width="600" border="0" cellspacing="0" cellpadding="0" align="center" class="devicewidth">
         <tr>
-          <td><table width="100%" bgcolor="#ffffff" border="0" cellspacing="0" cellpadding="0" align="center" class="full" style="background:#ffffff">
-          <tr><td height="44">&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+          <td>
+            <table width="100%" bgcolor="#ffffff" border="0" cellspacing="0" cellpadding="0" align="center" class="full" style="background:#ffffff">
               <tr>
-              <td width="5%">&nbsp;</td>
-                <td class="text01" mc:edit="text07" align="center" style="color:#2a2a2a; font:100 32px/40px 'Roboto', Helvetica, Arial, sans-serif;"> Steelie Car Kit будет отличным подарком для любого владельца автомобиля.</td>
-<td width="5%">&nbsp;</td>
+                <td height="50" style="position: relative;">
+                  <span class="triangle"></span>
+                </td>
               </tr>
-              <tr><td height="44">&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+            </table>
+
+             <table width="100%" bgcolor="#ffffff" border="0" cellspacing="0" cellpadding="0" align="center" class="full" style="background:#ffffff">
+
+              <tr>
+                <td width="5%">&nbsp;</td>
+                  <td class="text01" mc:edit="text07" align="center" style="color:#2a2a2a; font:100 32px/40px 'Roboto', Helvetica, Arial, sans-serif;"> Steelie Car Kit будет отличным подарком для любого владельца автомобиля.</td>
+                <td width="5%">&nbsp;</td>
+              </tr>
+              <tr><td height="90">&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
             </table></td>
         </tr>
       </table></td>
   </tr>
 </table>
+<!-- block 2 -->
 
+<table md:repeatable="Block01" width="100%" border="0" cellspacing="0" cellpadding="0" align="center" class="full">
+  <tr>
+    <td>
+        <table width="600" border="0" cellspacing="0" cellpadding="0" align="center" class="devicewidth">
+            <tr>
+              <td>
+                 <table width="100%" bgcolor="#ffffff" border="0" cellspacing="0" cellpadding="0" align="center" class="full" style="background:url(images/image1.png)center no-repeat; background-size: cover;">
+                  <tr>
+                    <td>
+                      <table width="542" align="center" border="0" cellpadding="0" class="full">
+                            <td mc:edit="text09" height="280">
+                            <p style="letter-spacing: 1px;font: 300 18px 'Roboto'; color:#f8ef22;padding-top: 75px; text-decoration:none;">Мы являемся официальным<br>
+                            дистрибьютером бренда Nite Ize<br>
+                            в России</p>
+                        </td>
+                      </table>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+        </table>
+    </td>
+  </tr>
+</table>
 
 <table mc:repeatable="RecentProjects" width="100%" border="0" cellspacing="0" cellpadding="0" align="center" class="full" id="colaps-inhiret01">
   <tr>
   <td>
-  	<table width="600" bgcolor="#f0f0f0" border="0" cellspacing="0" cellpadding="0" align="center" class="devicewidth" id="colaps-inhiret02">
+  	
+  </td>
+
+  </tr></table>
+  <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" class="full" id="colaps-inhiret001">
+  <tr>
+    <td><table width="600" bgcolor="ffffff" border="0" cellspacing="0" cellpadding="0" align="center" class="devicewidth" id="colaps-inhiret002">
+        <tr>
+          <td><table width="100%" bgcolor="#ffffff" border="0" cellspacing="0" cellpadding="0" align="center" class="full" style="background:#ffffff" id="colaps-inhiret003">
+             
+              <tr>
+              <td>
+              <table width="542" align="center" border="0" cellspacing="0" cellpadding="0" class="inner">
+               <tr>
+                <td height="80" width="100%">&nbsp;</td>
+              </tr>
+              <tr>
+                <td mc:edit="text013" class="heading" align="center" style="font:100 48px 'Roboto', Helvetica, Arial, sans-serif; color:#2a2a2a; text-align:center;"> Steelie car mount kit</td>
+              </tr> 
+              <tr><td height="39">&nbsp;</td></tr>  
+              <tr><td mc:edit="text014" align="left" style=" font:100 24px 'Roboto', Helvetica, Arial, sans-serif; color:#2a2a2a; text-align:left"> Надежно крепится, при этом легко позволяет регулировать положегия устройства. Прочно фиксируется на местеустановки.</td></tr>
+
+
+              <tr><td height="46">&nbsp;</td></tr>
+                
+              <td>
+                <table width="100%" bgcolor="#ffffff" border="0" cellspacing="0" cellpadding="0" align="center" class="full" style="background:url(images/img1.png)center no-repeat; background-size: cover; background-position: 0px -310px;">
+                  <tbody><tr>
+                    <td>
+                      <table width="542" align="center" border="0" cellpadding="0" class="full">
+                            <tbody><tr><td mc:edit="text09" height="280">
+                          
+                        </td>
+                      </tr></tbody></table>
+                    </td>
+                  </tr>
+                </tbody></table>
+              </td>
+  <tr mc:repeatable="whatwedobox01">
+    <td>
+    <table width="266" bgcolor="ffffff" align="left" border="0" cellspacing="0" cellpadding="0" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;" class="inner">
+  <tr>
+    <td valign="top">
+    	<table align="left" width="58" border="0" cellspacing="0" cellpadding="0" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;">
+  <tr>
+    <td width="41" height="41" align="center" valign="middle"><img mc:edit="icone01" src="images/ico1.png" width="41" height="41" alt="icon"></td>
+    <td>&nbsp;</td>
+  </tr>
+</table>
+<table align="left" width="203" border="0" cellspacing="0" cellpadding="0" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;">
+  <tr><td mc:edit="text015" align="left" style="color:#2a2a2a; font:300 24px 'Roboto', Helvetica, Arial, sans-serif; padding:10px 0; text-align:left;">Всегда на виду</td></tr>
+  <tr><td mc:edit="text016" align="left" style="color:#2a2a2a; font: 15px Arial, Helvetica, sans-serif; padding:0 0; text-align:left;">Больше не нужно искать телефон под сиденьем или в подлокотнике, когда раздается звонок. 
+</td></tr>
+  <tr><td height="56">&nbsp;</td></tr>
+</table>
+    </td>
+  </tr>
+</table>
+<table width="266" bgcolor="ffffff" align="left" border="0" cellspacing="0" cellpadding="0" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;" class="inner">
+  <tr>
+    <td valign="top">
+    	<table align="left" width="58" border="0" cellspacing="0" cellpadding="0" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;">
+  <tr>
+    <td width="41" height="41" align="center" valign="middle"><img mc:edit="icone02" src="images/ico2.png" width="41" height="41" alt="icon"></td>
+    <td>&nbsp;</td>
+  </tr>
+</table>
+<table align="left" width="203" border="0" cellspacing="0" cellpadding="0" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;">
+  <tr><td mc:edit="text017" align="left" style="color:#2a2a2a; font:300 24px 'Roboto', Helvetica, Arial, sans-serif; padding:10px 0; text-align:left;">Свободные руки</td></tr>
+  <tr><td mc:edit="text018" align="left" style="color:#2a2a2a; font: 15px Arial, Helvetica, sans-serif; padding:0 0; text-align:left;">Можно разговаривать по громкой связи и использовать видеоконференцию, если это необходимо. 
+</td></tr>
+  <tr><td height="56">&nbsp;</td></tr>
+</table>
+    </td>
+  </tr>
+</table>
+    </td>
+  </tr>
+  <tr mc:repeatable="whatwedobox02">
+  <td><table width="266" bgcolor="ffffff" align="left" border="0" cellspacing="0" cellpadding="0" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;" class="inner">
+  <tr>
+    <td valign="top">
+    	<table align="left" width="58" border="0" cellspacing="0" cellpadding="0" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;">
+  <tr>
+    <td width="41" height="41" align="center" valign="middle"><img mc:edit="icone03" src="images/ico3.png" width="41" height="41" alt="icon"></td>
+    <td>&nbsp;</td>
+  </tr>
+</table>
+<table align="left" width="203" border="0" cellspacing="0" cellpadding="0" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;">
+  <tr><td mc:edit="text019" align="left" style="color:#2a2a2a; font:300 24px 'Roboto', Helvetica, Arial, sans-serif; padding:10px 0; text-align:left;"> Навигатор</td></tr>
+  <tr><td mc:edit="text020" align="left" style="color:#2a2a2a; font: 15px Arial, Helvetica, sans-serif; padding:0 0; text-align:left;">Не нужно держать телефон в руке или опускать голову вниз, чтобы посмотреть на карту. Поверните телефон в любой плоскости и найдите удобное положение для взгляда. 
+</td></tr>
+  <tr><td height="56">&nbsp;</td></tr>
+</table>
+    </td>
+  </tr>
+</table>
+<table width="266" bgcolor="ffffff" align="left" border="0" cellspacing="0" cellpadding="0" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;" class="inner">
+  <tr>
+    <td valign="top">
+    	<table align="left" width="58" border="0" cellspacing="0" cellpadding="0" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;">
+  <tr>
+    <td width="41" height="41" align="center" valign="middle"><img mc:edit="icone04" src="images/ico4.png" width="41" height="41" alt="icon"></td>
+    <td>&nbsp;</td>
+  </tr>
+</table>
+<table align="left" width="203" border="0" cellspacing="0" cellpadding="0" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;">
+  <tr><td mc:edit="text021" align="left" style="color:#2a2a2a; font:300 24px 'Roboto', Helvetica, Arial, sans-serif; padding:10px 0; text-align:left;"> Крутой магнит </td></tr>
+  <tr><td mc:edit="text022" align="left" style="color:#2a2a2a; font: 15px Arial, Helvetica, sans-serif; padding:0 0; text-align:left;">Неодимовый магнит абсолютно не вредит технике и не влияет на качество мобильной связи. 
+</td></tr>
+  <tr><td height="56">&nbsp;</td></tr>
+</table>
+    </td>
+  </tr>
+</table></td>
+  </tr>
+  
+  <tr>
+                	<td>
+                    	<table width="219" border="0" cellspacing="0" cellpadding="0" align="center">
+  <tr>
+    <td mc:edit="text025a" width="219" height="65" bgcolor="#e4da36" align="center" style="background:#f8ef22; font:700 18px 'Roboto', Arial, Helvetica, sans-serif;">
+<a style="text-decoration: none; color:#000; padding: 15px 0; text-transform: uppercase;" href="#">Купить</a>
+</td>
+  </tr>
+</table>
+
+                    </td>
+                </tr>
+                <tr><td height="90">&nbsp;</td></tr>
+</table>
+              </td>
+              </tr>      
+            </table></td>
+        </tr>
+      </table></td>
+  </tr>
+</table>
+<table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" class="full">
+  <tr>
+  <td>
+  <table width="600" border="0" cellspacing="0" cellpadding="0" align="center" class="devicewidth">
   <tr>
     <td>
-    	<table width="100%" bgcolor="#f0f0f0" border="0" cellspacing="0" cellpadding="0" align="center" class="full" id="colaps-inhiret03">
+    <table width="100%" bgcolor="#212222" border="0" cellspacing="0" cellpadding="0" align="center" class="full" style="background:url(images/workbg.jpg) no-repeat left top;">
+          <tr>
+          <td height="50">&nbsp;</td></tr>
+
+
+
+          <tr><td mc:edit="text027" class="heading" style="font:100 48px 'Roboto', Helvetica, Arial, sans-serif; color:#ffffff; text-align:center;"><strong> Преимущества</strong></td></tr>
+          <tr><td height="39" style="border-bottom:1px solid #424140;">&nbsp;</td></tr>
+          <tr><td>
+          <table width="100%" border="0" cellspacing="0" cellpadding="0" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;">
+  <tr mc:repeatable="Worksection01" style="border-bottom:1px solid #424140;">
+  <td mc:edit="text029" width="20%" class="workfont002" valign="middle" style="color: #f8ef22;font:100 74px 'Roboto', Helvetica, Arial, sans-serif; color:#f8ef22; text-align:center;">1</td>
+  <td mc:edit="text028" class="workfont001" valign="middle" style="color:#ffffff; font:300 36px 'Roboto', Helvetica, Arial, sans-serif;">Прослужит долго</td>
+  </tr>
+  <tr mc:repeatable="Worksection02" style="border-bottom:1px solid #424140;">
+  <td mc:edit="text031" width="20%" class="workfont002" valign="middle" style="color: #f8ef22;font:100 74px 'Roboto', Helvetica, Arial, sans-serif; color:#f8ef22; text-align:center;">2</td>
+  <td mc:edit="text030" class="workfont001" valign="middle" style="color:#ffffff; font:300 36px 'Roboto', Helvetica, Arial, sans-serif;">Не портит интерьер</td>
+  </tr>
+  <tr mc:repeatable="Worksection03" style="border-bottom:1px solid #424140;">
+  <td mc:edit="text033" width="20%" class="workfont002" valign="middle" style="color: #f8ef22;font:100 74px 'Roboto', Helvetica, Arial, sans-serif; color:#f8ef22; text-align:center;">3</td>
+  <td mc:edit="text032" class="workfont001" valign="middle" style="color:#ffffff; font:300 36px 'Roboto', Helvetica, Arial, sans-serif;">Для любого телефона</td>
+  </tr>
+  <tr mc:repeatable="Worksection04" style="border-bottom:1px solid #424140;">
+  <td mc:edit="text035" width="20%" class="workfont002" valign="middle" style="color: #f8ef22;font:100 74px 'Roboto', Helvetica, Arial, sans-serif; color:#f8ef22; text-align:center;">4</td>
+  <td mc:edit="text034" class="workfont001" valign="middle" style="color:#ffffff; font:300 36px 'Roboto', Helvetica, Arial, sans-serif;">Легко устанавливается</td>
+  </tr>
+  <tr mc:repeatable="Worksection05" style="border-bottom:1px solid #424140;">
+  <td mc:edit="text037" width="20%" class="workfont002" valign="middle" style="color: #f8ef22;font:100 74px 'Roboto', Helvetica, Arial, sans-serif; color:#f8ef22; text-align:center;">5</td>
+  <td mc:edit="text036" class="workfont001" valign="middle" style="color:#ffffff; font:300 36px 'Roboto', Helvetica, Arial, sans-serif;">Легко демонтируется</td>
+  </tr>
+</table>
+          </td></tr>
+          <tr><td height="50">&nbsp;</td></tr>
+           <tr>
+                	<td>
+                    	<table width="219" border="0" cellspacing="0" cellpadding="0" align="center">
+  <tr>
+    <td mc:edit="text036a" width="219" height="65" bgcolor="#e4da36" align="center" style="background:#e4da36; font:700 18px 'Roboto', Arial, Helvetica, sans-serif;">
+<a style="text-decoration: none; color:#000; padding: 15px 0; text-transform: uppercase;" href="#">Перейти на сайт</a>
+</td>
+  </tr>
+</table>
+
+                    </td>
+                </tr>
+                <tr><td height="78">&nbsp;</td></tr>
+          </table>
+    </td></tr></table>
+  </td></tr></table>
+ 
+<table width="600" bgcolor="#f0f0f0" border="0" cellspacing="0" cellpadding="0" align="center" class="devicewidth" id="colaps-inhiret02">
+  <tr>
+    <td>
+      <table width="100%" bgcolor="#f0f0f0" border="0" cellspacing="0" cellpadding="0" align="center" class="full" id="colaps-inhiret03">
         <tr><td height="70">&nbsp;</td></tr>
-			<tr><td mc:edit="text08" class="heading" style="font:100 48px 'Roboto', Helvetica, Arial, sans-serif; color:#2a2a2a; text-align:center;">Дополнительные компоненты</td></tr>
+      <tr><td mc:edit="text08" class="heading" style="font:100 48px 'Roboto', Helvetica, Arial, sans-serif; color:#2a2a2a; text-align:center;">Дополнительные компоненты</td></tr>
           <tr><td height="40">&nbsp;</td></tr>
           <tr><td>
           <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
@@ -336,13 +583,13 @@ table td[class=blockheight]{
     <td class="hide" width="29">&nbsp;</td>
     <td>
             <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
-          		<tr>
-                	<td>
-                    	<table width="320" height="439" border="0" cellspacing="0" cellpadding="0" align="left" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt; background:url(images/projectimg01.png) no-repeat center top #f0f0f0;" class="inner">
+              <tr>
+                  <td>
+                      <table width="320" height="439" border="0" cellspacing="0" cellpadding="0" align="left" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt; background:url(images/projectimg01.png) no-repeat center top #f0f0f0;" class="inner">
                         <tr><td height="345">&nbsp;</td></tr>
-  							<tr>
-                        		<td>
-                                	<table width="87%" height="74" bgcolor="#ffffff" border="0" cellspacing="0" cellpadding="0" align="center">
+                <tr>
+                            <td>
+                                  <table width="87%" height="74" bgcolor="#ffffff" border="0" cellspacing="0" cellpadding="0" align="center">
   <tr>
     <td>
     <table width="78%" height="74" border="0" cellspacing="0" cellpadding="0" align="left">
@@ -364,7 +611,7 @@ table td[class=blockheight]{
   </tr>
 </table>
                                 </td>
-                         	</tr>
+                          </tr>
                             <tr>
     <td height="20">&nbsp;</td>
   </tr>
@@ -373,12 +620,12 @@ table td[class=blockheight]{
                         <tr><td class="show" height="9"></td></tr>
                         <tr>
                         
-                            	<td>
-                                	<table width="100%" height="214" border="0" cellspacing="0" cellpadding="0" style="background:url(images/projectimg02.png) no-repeat center top #f0f0f0;" class="block01resize">
+                              <td>
+                                  <table width="100%" height="214" border="0" cellspacing="0" cellpadding="0" style="background:url(images/projectimg02.png) no-repeat center top #f0f0f0;" class="block01resize">
                                     <tr><td class="blockheight" height="120">&nbsp;</td></tr>
-  							<tr>
-                            	<td>
-                                	<table width="87%" bgcolor="#ffffff" border="0" cellspacing="0" cellpadding="0" align="center" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;">
+                <tr>
+                              <td>
+                                  <table width="87%" bgcolor="#ffffff" border="0" cellspacing="0" cellpadding="0" align="center" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;">
   <tr>
     <td>
     <table width="79%" border="0" cellspacing="0" cellpadding="0" align="left" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;">
@@ -410,9 +657,9 @@ table td[class=blockheight]{
                         </table>
                         <table width="100%" height="214" border="0" cellspacing="0" cellpadding="0" style="background:url(images/projectimg03.png) no-repeat center top #f0f0f0; margin-top:10px;" class="block02resize">
                         <tr><td class="blockheight" height="120">&nbsp;</td></tr>
-  							<tr>
-                            	<td>
-                                	<table width="87%" bgcolor="#ffffff" border="0" cellspacing="0" cellpadding="0" align="center" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;">
+                <tr>
+                              <td>
+                                  <table width="87%" bgcolor="#ffffff" border="0" cellspacing="0" cellpadding="0" align="center" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;">
   <tr>
     <td>
     <table width="79%" border="0" cellspacing="0" cellpadding="0" align="left" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;">
@@ -446,15 +693,15 @@ table td[class=blockheight]{
                             </tr>
                         </table>
                     </td>
-              	</tr>
+                </tr>
                 <tr>
     <td height="46">&nbsp;</td></tr>
                 <tr>
-                	<td>
-                    	<table width="219" border="0" cellspacing="0" cellpadding="0" align="center">
+                  <td>
+                      <table width="219" border="0" cellspacing="0" cellpadding="0" align="center">
   <tr>
     <td mc:edit="text012" width="219" height="65" bgcolor="#e4da36" align="center" style="background:#e4da36; font:700 18px 'Roboto', Arial, Helvetica, sans-serif;">
-<a style="text-decoration: none; color:#ffffff; padding: 15px 0; text-transform: uppercase;" href="#">Купить сейчас</a>
+<a style="text-decoration: none; color:#000000; padding: 15px 0; text-transform: uppercase;" href="#">заказать</a>
 </td>
   </tr>
 </table>
@@ -462,7 +709,7 @@ table td[class=blockheight]{
                     </td>
                 </tr>
                 <tr>
-                	<td height="90">&nbsp;</td>
+                  <td height="90">&nbsp;</td>
                 </tr>
             </table>
     </td>
@@ -477,184 +724,35 @@ table td[class=blockheight]{
     </td>
   </tr>
 </table>
-  </td>
-
-  </tr></table>
-  <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" class="full" id="colaps-inhiret001">
-  <tr>
-    <td><table width="600" bgcolor="ffffff" border="0" cellspacing="0" cellpadding="0" align="center" class="devicewidth" id="colaps-inhiret002">
-        <tr>
-          <td><table width="100%" bgcolor="#ffffff" border="0" cellspacing="0" cellpadding="0" align="center" class="full" style="background:#ffffff" id="colaps-inhiret003">
-             
-              <tr>
-              <td>
-              <table width="542" align="center" border="0" cellspacing="0" cellpadding="0" class="inner">
-               <tr>
-                <td height="80" width="100%">&nbsp;</td>
-              </tr>
-              <tr>
-                <td mc:edit="text013" class="heading" align="center" style="font:100 48px 'Roboto', Helvetica, Arial, sans-serif; color:#2a2a2a; text-align:center;"> Steelie car mount kit</td>
-              </tr> 
-              <tr><td height="39">&nbsp;</td></tr>  
-              <tr><td mc:edit="text014" align="left" style=" font:100 24px 'Roboto', Helvetica, Arial, sans-serif; color:#2a2a2a; text-align:left"> Надежно крепится, при этом легко позволяет регулировать положегия устройства. Прочно фиксируется на местеустановки.</td></tr>
-              <tr><td height="46">&nbsp;</td></tr>
-  <tr mc:repeatable="whatwedobox01">
-    <td>
-    <table width="266" bgcolor="ffffff" align="left" border="0" cellspacing="0" cellpadding="0" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;" class="inner">
-  <tr>
-    <td valign="top">
-    	<table align="left" width="58" border="0" cellspacing="0" cellpadding="0" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;">
-  <tr>
-    <td width="41" height="41" align="center" valign="middle"><img mc:edit="icone01" src="images/wwdicon01.png" width="41" height="41" alt="icon"></td>
-    <td>&nbsp;</td>
-  </tr>
-</table>
-<table align="left" width="203" border="0" cellspacing="0" cellpadding="0" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;">
-  <tr><td mc:edit="text015" align="left" style="color:#2a2a2a; font:300 24px 'Roboto', Helvetica, Arial, sans-serif; padding:10px 0; text-align:left;">Всегда на виду</td></tr>
-  <tr><td mc:edit="text016" align="left" style="color:#2a2a2a; font: 15px Arial, Helvetica, sans-serif; padding:0 0; text-align:left;">Больше не нужно искать телефон под сиденьем или в подлокотнике, когда раздается звонок. 
-</td></tr>
-  <tr><td height="56">&nbsp;</td></tr>
-</table>
-    </td>
-  </tr>
-</table>
-<table width="266" bgcolor="ffffff" align="left" border="0" cellspacing="0" cellpadding="0" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;" class="inner">
-  <tr>
-    <td valign="top">
-    	<table align="left" width="58" border="0" cellspacing="0" cellpadding="0" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;">
-  <tr>
-    <td width="41" height="41" align="center" valign="middle"><img mc:edit="icone02" src="images/wwdicon02.png" width="41" height="41" alt="icon"></td>
-    <td>&nbsp;</td>
-  </tr>
-</table>
-<table align="left" width="203" border="0" cellspacing="0" cellpadding="0" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;">
-  <tr><td mc:edit="text017" align="left" style="color:#2a2a2a; font:300 24px 'Roboto', Helvetica, Arial, sans-serif; padding:10px 0; text-align:left;">Свободные руки</td></tr>
-  <tr><td mc:edit="text018" align="left" style="color:#2a2a2a; font: 15px Arial, Helvetica, sans-serif; padding:0 0; text-align:left;">Можно разговаривать по громкой связи и использовать видеоконференцию, если это необходимо. 
-</td></tr>
-  <tr><td height="56">&nbsp;</td></tr>
-</table>
-    </td>
-  </tr>
-</table>
-    </td>
-  </tr>
-  <tr mc:repeatable="whatwedobox02">
-  <td><table width="266" bgcolor="ffffff" align="left" border="0" cellspacing="0" cellpadding="0" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;" class="inner">
-  <tr>
-    <td valign="top">
-    	<table align="left" width="58" border="0" cellspacing="0" cellpadding="0" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;">
-  <tr>
-    <td width="41" height="41" align="center" valign="middle"><img mc:edit="icone03" src="images/wwdicon03.png" width="41" height="41" alt="icon"></td>
-    <td>&nbsp;</td>
-  </tr>
-</table>
-<table align="left" width="203" border="0" cellspacing="0" cellpadding="0" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;">
-  <tr><td mc:edit="text019" align="left" style="color:#2a2a2a; font:300 24px 'Roboto', Helvetica, Arial, sans-serif; padding:10px 0; text-align:left;"> Навигатор</td></tr>
-  <tr><td mc:edit="text020" align="left" style="color:#2a2a2a; font: 15px Arial, Helvetica, sans-serif; padding:0 0; text-align:left;">Не нужно держать телефон в руке или опускать голову вниз, чтобы посмотреть на карту. Поверните телефон в любой плоскости и найдите удобное положение для взгляда. 
-</td></tr>
-  <tr><td height="56">&nbsp;</td></tr>
-</table>
-    </td>
-  </tr>
-</table>
-<table width="266" bgcolor="ffffff" align="left" border="0" cellspacing="0" cellpadding="0" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;" class="inner">
-  <tr>
-    <td valign="top">
-    	<table align="left" width="58" border="0" cellspacing="0" cellpadding="0" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;">
-  <tr>
-    <td width="41" height="41" align="center" valign="middle"><img mc:edit="icone04" src="images/wwdicon04.png" width="41" height="41" alt="icon"></td>
-    <td>&nbsp;</td>
-  </tr>
-</table>
-<table align="left" width="203" border="0" cellspacing="0" cellpadding="0" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;">
-  <tr><td mc:edit="text021" align="left" style="color:#2a2a2a; font:300 24px 'Roboto', Helvetica, Arial, sans-serif; padding:10px 0; text-align:left;"> Крутой магнит </td></tr>
-  <tr><td mc:edit="text022" align="left" style="color:#2a2a2a; font: 15px Arial, Helvetica, sans-serif; padding:0 0; text-align:left;">Неодимовый магнит абсолютно не вредит технике и не влияет на качество мобильной связи. 
-</td></tr>
-  <tr><td height="56">&nbsp;</td></tr>
-</table>
-    </td>
-  </tr>
-</table></td>
-  </tr>
-  
-  <tr>
-                	<td>
-                    	<table width="219" border="0" cellspacing="0" cellpadding="0" align="center">
-  <tr>
-    <td mc:edit="text025a" width="219" height="65" bgcolor="#e4da36" align="center" style="background:#e4da36; font:700 18px 'Roboto', Arial, Helvetica, sans-serif;">
-<a style="text-decoration: none; color:#ffffff; padding: 15px 0; text-transform: uppercase;" href="#">Все преимущества</a>
-</td>
-  </tr>
-</table>
-
-                    </td>
-                </tr>
-                <tr><td height="90">&nbsp;</td></tr>
-</table>
-              </td>
-              </tr>      
-            </table></td>
-        </tr>
-      </table></td>
-  </tr>
-</table>
-<table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" class="full">
-  <tr>
-  <td>
-  <table width="600" border="0" cellspacing="0" cellpadding="0" align="center" class="devicewidth">
-  <tr>
-    <td>
-    <table width="100%" bgcolor="#212222" border="0" cellspacing="0" cellpadding="0" align="center" class="full" style="background:url(images/workbg.jpg) no-repeat left top;">
-          <tr>
-          <td height="99">&nbsp;</td></tr>
-          <tr><td mc:edit="text027" class="heading" style="font:100 48px 'Roboto', Helvetica, Arial, sans-serif; color:#ffffff; text-align:center;"><strong> Преимущества</strong></td></tr>
-          <tr><td height="48" style="border-bottom:1px solid #424140;">&nbsp;</td></tr>
-          <tr><td>
-          <table width="100%" border="0" cellspacing="0" cellpadding="0" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;">
-  <tr mc:repeatable="Worksection01" style="border-bottom:1px solid #424140;">
-  <td mc:edit="text029" width="20%" class="workfont002" valign="middle" style="font:100 74px 'Roboto', Helvetica, Arial, sans-serif; color:#ffffff; text-align:center;">1</td>
-  <td mc:edit="text028" class="workfont001" valign="middle" style="color:#ffffff; font:300 36px 'Roboto', Helvetica, Arial, sans-serif;">Прослужит долго</td>
-  </tr>
-  <tr mc:repeatable="Worksection02" style="border-bottom:1px solid #424140;">
-  <td mc:edit="text031" width="20%" class="workfont002" valign="middle" style="font:100 74px 'Roboto', Helvetica, Arial, sans-serif; color:#e4da36; text-align:center;">2</td>
-  <td mc:edit="text030" class="workfont001" valign="middle" style="color:#ffffff; font:300 36px 'Roboto', Helvetica, Arial, sans-serif;">Не портит интерьер</td>
-  </tr>
-  <tr mc:repeatable="Worksection03" style="border-bottom:1px solid #424140;">
-  <td mc:edit="text033" width="20%" class="workfont002" valign="middle" style="font:100 74px 'Roboto', Helvetica, Arial, sans-serif; color:#ffffff; text-align:center;">3</td>
-  <td mc:edit="text032" class="workfont001" valign="middle" style="color:#ffffff; font:300 36px 'Roboto', Helvetica, Arial, sans-serif;">Для любого телефона</td>
-  </tr>
-  <tr mc:repeatable="Worksection04" style="border-bottom:1px solid #424140;">
-  <td mc:edit="text035" width="20%" class="workfont002" valign="middle" style="font:100 74px 'Roboto', Helvetica, Arial, sans-serif; color:#ffffff; text-align:center;">4</td>
-  <td mc:edit="text034" class="workfont001" valign="middle" style="color:#ffffff; font:300 36px 'Roboto', Helvetica, Arial, sans-serif;">Легко устанавливается</td>
-  </tr>
-  <tr mc:repeatable="Worksection05" style="border-bottom:1px solid #424140;">
-  <td mc:edit="text037" width="20%" class="workfont002" valign="middle" style="font:100 74px 'Roboto', Helvetica, Arial, sans-serif; color:#ffffff; text-align:center;">5</td>
-  <td mc:edit="text036" class="workfont001" valign="middle" style="color:#ffffff; font:300 36px 'Roboto', Helvetica, Arial, sans-serif;">Легко демонтируется</td>
-  </tr>
-</table>
-          </td></tr>
-          <tr><td height="50">&nbsp;</td></tr>
-           <tr>
-                	<td>
-                    	<table width="219" border="0" cellspacing="0" cellpadding="0" align="center">
-  <tr>
-    <td mc:edit="text036a" width="219" height="65" bgcolor="#e4da36" align="center" style="background:#e4da36; font:700 18px 'Roboto', Arial, Helvetica, sans-serif;">
-<a style="text-decoration: none; color:#ffffff; padding: 15px 0; text-transform: uppercase;" href="#">Перейти на сайт</a>
-</td>
-  </tr>
-</table>
-
-                    </td>
-                </tr>
-                <tr><td height="78">&nbsp;</td></tr>
-          </table>
-    </td></tr></table>
-  </td></tr></table>
  
 
-          
 
-  
+<table width="600" bgcolor="#f0f0f0" border="0" cellspacing="0" cellpadding="0" align="center" class="devicewidth" id="colaps-inhiret02">       
+<td>
+    <table width="100%" bgcolor="#ffffff" border="0" cellspacing="0" cellpadding="0" align="center" class="full" style="background:url(images/ac.png)center no-repeat; background-size: cover; ">
+      <tbody><tr>
+        <td>
+          <table width="542" align="center" border="0" cellpadding="0" class="full">
+            <td height="585">&nbsp;</td>
+
+                <tbody><tr><td mc:edit="text09" height="60">
+                  <table width="219" border="0" cellspacing="0" cellpadding="0" align="center">
+                      <tbody><tr>
+                        <td mc:edit="text012" width="219" height="70" bgcolor="#e4da36" align="center" style="background:#e4da36; font:700 18px 'Roboto', Arial, Helvetica, sans-serif;">
+                    <a style="text-decoration: none; color:#000000; padding: 15px 0; text-transform: uppercase;" href="#">Скидка тут</a>
+                    </td>
+                      </tr>
+                    </tbody>
+                  </table>
+            </td>
+          </tr></tbody>
+ <td height="80">&nbsp;</td>
+        </table>
+        </td>
+      </tr>
+    </tbody></table>
+  </td>
+  </table>
   
 
  
@@ -671,7 +769,7 @@ table td[class=blockheight]{
   <tr>
     <td class="hide" width="29">&nbsp;</td>
     <td>
-    		<table width="311" align="left" border="0" cellspacing="0" cellpadding="0" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;" class="blockcenterd">
+    		<table width="250" align="left" border="0" cellspacing="0" cellpadding="0" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;" class="blockcenterd">
             <tr><td height="42">&nbsp;</td></tr>
             <tr><td mc:edit="text0103" align="left" style="font:300 18px 'Roboto', Helvetica, Arial, sans-serif; color:#212121; text-align:left; text-transform:uppercase;">Только оригинал</td></tr>
   <tr>
@@ -683,6 +781,32 @@ table td[class=blockheight]{
   </tr>
   <tr><td height="25">&nbsp;</td></tr>
 </table>
+
+<table width="250" align="right" border="0" cellspacing="0" cellpadding="0" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;" class="blockcenterd">
+            <tr><td height="42">&nbsp;</td></tr>
+            <tr>
+    <td height="20">&nbsp;</td>
+  </tr>
+
+          <table width="250"  border="0" cellspacing="0" cellpadding="0" align="right" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt; background:url(images/origin.png) no-repeat center;" class="inner">
+                        <tbody><tr><td height="203">&nbsp;</td></tr>
+                <tr>
+                            <td>
+         
+                                </td>
+                          </tr>
+                            <tr>
+    <td height="20">&nbsp;</td>
+  </tr>
+                        </tbody></table>
+  <tr>
+  <tr><td height="18">&nbsp;</td></tr>
+    <tr>
+  </tr>
+  <tr><td height="25">&nbsp;</td></tr>
+</table>
+
+
 
 
     </td>
